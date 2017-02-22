@@ -1,0 +1,29 @@
+body {
+	 background-color: #cc9900;
+	 color: white;
+	 font-family: "Stencil";
+	 padding:  25px;
+	 
+}
+p {
+	text-align: justify;
+
+}
+
+figure {
+	border: 5px solid green;
+	height: 185px;
+	padding: 20px;
+	margin:	0px;
+
+
+}
+img {
+	width: inherit;
+}
+
+figcaption{
+	font-style: italic;
+	text-align: center;
+}
+
