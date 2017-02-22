@@ -11,13 +11,12 @@ p {
 }
 
 figure {
-	border: 5px solid green;
-	height: 185px;
+	border: 1px solid black;
+	width: 185px;
 	padding: 20px;
 	margin:	0px;
-
-
 }
+
 img {
 	width: inherit;
 }

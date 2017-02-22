@@ -1,0 +1,19 @@
+.people{
+	padding: 0 19px 28px 19px;
+
+}
+.name {
+	width: 20%;
+	
+	}
+.bio {
+	width: 80%;
+	float: left;
+	}
+.bio2 {
+	width: 80%;
+	float: left;
+	}
+.name > h2{
+	font-style: italic;
+}
