@@ -1,5 +1,7 @@
 .people{
 	padding: 0 19px 28px 19px;
+	overflow: auto;
+	margin: 19px;
 
 }
 .name {
@@ -17,3 +19,44 @@
 .name > h2{
 	font-style: italic;
 }
+.me {
+	margin-bottom: 19px;
+}
+
+.name > h2 > a, .name > a {
+	color: inherit;
+	text-decoration: none;
+}
+/*Color for person who i admire */
+#keanu{
+	background-color: #993333;
+	color: #ccffff;
+}
+#eminem{
+	background-color: #006600;
+	color: #ffcccc;
+
+}
+
+#eminem > .name{
+	color: #ffffcc;
+}
+
+#keanu > .name > figure{
+	border-color: #ff99ff;
+}
+
+#eminem > .name > figure{
+	border-color: #ff99ff;
+}
+
+#keanu > .name > h2 > a:hover{
+	color: #09c;
+	background-color: #ffcccc;
+}
+
+#eminem > .name > h2 > a:hover{
+	color: #ff99ff;
+	background-color: #ffcc00;
+}
+
