@@ -43,3 +43,19 @@ tr:hover{
 	background-color: red;
 	font-weight: bold;
 }
+
+#my-td {
+	border: 2px solid #333300;
+	margin: 28px 0 28px 0;
+	min-height: 10px;
+	max-height: 50px; 
+	padding: 30px;
+	font-size: 28px;
+}
+
+.my-td-span{
+	background-color: #009999;
+	padding: 5px;
+	font-size: inherit;
+	color: inherit;
+}
