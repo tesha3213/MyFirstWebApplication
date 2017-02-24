@@ -24,3 +24,13 @@ tr.even{
 	background-color: #6699ff;
 	color: #333;
 }
+/*tbody > tr:nth-child(2) > td {
+	border-top:15px solid #99ccff;
+}*/
+
+td:first-child{
+	text-align: left;
+}
+td:nth-child(2){
+	font-style: italic;
+}
