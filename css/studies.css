@@ -10,3 +10,17 @@ td, th {
 	text-align: center;
 	padding: 10px;
 }
+
+th {
+	background-color: #1EABB3;
+	border-right-color: #99ffcc;
+	color: #333;
+}
+
+th:last-child{
+	border-right-color: #99ffcc;
+}
+tr.even{
+	background-color: #6699ff;
+	color: #333;
+}
