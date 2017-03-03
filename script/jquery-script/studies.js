@@ -5,15 +5,18 @@ $(function(){
 		});
 	});
 
-	$('td').each(function(){
+	$('.my-content').each(function(){
 		$(this).on('mouseover', function(){
 				$('#my-td').html('<span class="my-td-span">' + $(this).text() +'<span>');
 		});
-		$(this).on('click', function(){
-			
-			$('.highlighted').removeClass('highlighted');
 
-			$(this).addClass('highlighted');
-		});
+		/*$(this).on('click', function(){
+			var isHighlighted = $(this).hasClass('highlighted');
+			$('.highlighted').removeClass('highlighted');
+			if (!isHighlighted) {
+				$(this).addClass('highlighted');
+			}
+			
+		});*/
 	});
 });

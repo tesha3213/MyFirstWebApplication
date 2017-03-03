@@ -48,7 +48,7 @@ tr:hover{
 	border: 2px solid #333300;
 	margin: 28px 0 28px 0;
 	min-height: 10px;
-	max-height: 50px; 
+	max-height: 1000px; 
 	padding: 30px;
 	font-size: 28px;
 }
@@ -59,4 +59,29 @@ tr:hover{
 	font-size: inherit;
 	color: inherit;
 }
+.my-header {
+	background-color: #666699;
+	color: #333;
+	font-size: 8px;
+	font-weight:  bold;
+}
+.my-content{
+	margin-top: 3px;
+}
+.my-header, .my-content{
+	border: 1px solid #333;
+	padding: 3px;
+}
 
+.my-study{
+	margin: 10px 0 10px 0;
+}
+
+.my-study-open, .my-study-close{
+	margin-right: 10px;
+}
+@media screen and (min-width: 767px){
+	.my-study-open, .my-study-close {
+		display: none;
+	}
+}
