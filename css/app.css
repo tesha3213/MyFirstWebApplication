@@ -3,22 +3,56 @@ body {
 	 color: white;
 	 font-family: "Stencil";
 	 padding:  25px;
+	 font-size: 7px;
 	 
+}
+
+figure {
+	border: 1px solid black;
+	width: 170px;
+	padding: 20px;
+	margin:	0px;
+}
+
+@media screen and (min-width: 400px){
+	figure{
+		width: 190px; 
+	}
+}
+
+@media screen and (min-width: 600px){
+	figure{
+		width: 210px; 
+	}
+}
+
+@media screen and (min-width: 800px){
+	figure{
+		width: 240px;
+	}
+}
+
+@media screen and (min-width: 1080px){
+	body{
+		font-size: 14px;
+		padding: 10px, 30px, 10px, 30px;
+
+	}
+
+	figure{
+		width: 260px;
+
+	}
 }
 p {
 	text-align: justify;
 
 }
 
-figure {
-	border: 1px solid black;
-	width: 185px;
-	padding: 20px;
-	margin:	0px;
-}
+
 
 img {
-	width: inherit;
+	width: 100%;
 }
 
 figcaption{

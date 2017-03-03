@@ -18,6 +18,8 @@
 	}
 .name > h2{
 	font-style: italic;
+	font-size: 14px;
+	font-weight: bold;
 }
 .me {
 	margin-bottom: 19px;
@@ -27,7 +29,28 @@
 	color: inherit;
 	text-decoration: none;
 }
+/*Background image*/
+	#img-keanu {
+		content: url("../img/4.jpg");
+	}
+
+	#img-eminem{
+		content: url("../img/5.jpg");
+	}
+@media screen and (min-width: 600px){
+
+
+	#img-keanu {
+		content: url("../img/2.jpg");
+	}
+
+	#img-eminem{
+		content: url("../img/3.jpg");
+	}
+}
 /*Color for person who i admire */
+
+
 #keanu{
 	background-color: #993333;
 	color: #ccffff;
@@ -60,8 +83,4 @@
 	background-color: #ffcc00;
 }
 
-.hidden {
-	display: none;
-	
-}
 

@@ -2,7 +2,10 @@
 <html>
 	<head>
 		<title>Hoang Trung</title>
-		<meta charset="utf-8">
+		<meta charset="utf-8"
+			name="viewport"
+			content="width=device-width. initial-scale=1.0, maximum-scale=1.0, user-scaleable=no" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
@@ -22,21 +25,29 @@
 			<a href="studies.html">here</a>
 
 			<p>Live in Vietnam 19 years.</p>
+			
 
-			<div id="people-menu">
 			People I admire are:<br/>
-			<ul>
-				<li>
+			<br>
+			<div>
+				<div class="col-md-3 col-sm-6">
+					<button id="button-keanu">Keanu Reeves</button>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<button id="button-eminem">Eminem</button>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<button>My Mom</button>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<button>My Dad</button>
+				</div>
+
+			</div>
 					<a href="#keanu">Keanu Reeves</a>
-				</li>
-				<li>
 					<a href="#eminem">Eminem</a>
-				</li>
-				<li>My mom</li>
-				<li>My dad</li>
 			
 			</ul>
-			</div>
 		</div>
 		<div class="people hidden" id="keanu">
 			<div class="name">
@@ -45,7 +56,7 @@
 				</h2>
 				
 				<figure>
-					<img src="img/2.jpg" />
+					<img id="img-keanu" />
 					<figcaption>Keanu Reeves</figcaption>
 				</figure>
 				<a href="#top">TOP</a>
@@ -68,7 +79,7 @@
 				</h2>
 				
 				<figure>
-					<img src="img/3.jpg" />
+					<img id="img-eminem" />
 					<figcaption>Marshall Bruce Mathers III</figcaption>
 				</figure>
 				<a href="#top">TOP</a>
@@ -91,7 +102,9 @@
 		<div class="people" id="mom"></div>
 		<div class="people" id="dad"></div>
 
+		
 		<script type="text/javascript" src="script/jquery-script/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="script/jquery-script/index.js" defer="defer"></script>
 	</body>
 </html>
