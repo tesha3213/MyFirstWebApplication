@@ -6,11 +6,19 @@
 			name="viewport"
 			content="width=device-width. initial-scale=1.0, maximum-scale=1.0, user-scaleable=no" />
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 
 	<body id="top">
+
+		<div class="navbar navbar-default navbar-fixed-top my-navbar" >
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">About me</a></li>
+				<li class="studies"><a href="studies.html">Studies</a></li>
+			</ul>
+		</div>
 		<div class="me" id="me">
 			<h1>Phan Hoang Trung.</h1>
 
@@ -29,24 +37,28 @@
 
 			People I admire are:<br/>
 			<br>
-			<div>
+			<div class="row">
 				<div class="col-md-3 col-sm-6">
-					<button id="button-keanu">Keanu Reeves</button>
+					<button id="button-keanu" class="btn btn-md btn btn-default button-people">Keanu Reeves</button>
+					<a id="anchor-keanu" href="#keanu" class="btn btn-primary hidden" data-toggle="tooltip" data-placement="right" title="Get directly to the biography">
+						<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+					</a>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<button id="button-eminem">Eminem</button>
+					<button id="button-eminem" class="btn btn-md btn btn-default button-people">Eminem</button>
+					<a id="anchor-eminem" href="#eminem" class="btn btn-warning hidden" data-toggle="tooltip" data-placement="right" title="Get directly to the biography">
+						<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+					</a>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<button>My Mom</button>
+					<button class="btn btn-md btn btn-default disabled">My Mom</button>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<button>My Dad</button>
+					<button class="btn btn-md btn btn-default disabled">My Dad</button>
 				</div>
 
 			</div>
-					<a href="#keanu">Keanu Reeves</a>
-					<a href="#eminem">Eminem</a>
-			
+					
 			</ul>
 		</div>
 		<div class="people hidden" id="keanu">
@@ -84,7 +96,7 @@
 				</figure>
 				<a href="#top">TOP</a>
 			</div>
-			<div class="bio2">
+			<div class="bio">
 			
 				<p>
 					Marshall Bruce Mathers III (born October 17, 1972),[1] known professionally as Eminem (often stylized as EMINƎM), is an American rapper, record producer, and actor. Eminem is the best-selling artist of the 2000s in the United States. Throughout his career, he has had 10 number-one albums on the Billboard 200 and five number-one singles on the Billboard Hot 100. With US sales of 45.1 million albums and 42 million tracks as of June 2014, Eminem is the second best-selling male artist of the Nielsen SoundScan era, the sixth best-selling artist in the United States and the best-selling hip-hop artist. Globally, he has sold more than 172 million albums, thus being one of the world's best-selling artists. Rolling Stone ranked him 83rd on its list of 100 Greatest Artists of All Time, calling him the King of Hip Hop.
@@ -105,6 +117,7 @@
 		
 		<script type="text/javascript" src="script/jquery-script/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="script/jquery-script/app.js"></script>
 		<script type="text/javascript" src="script/jquery-script/index.js" defer="defer"></script>
 	</body>
 </html>
